@@ -24,6 +24,7 @@ function App() {
     
     if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
       setIsMobile(true);
+      console.log(isMobile);
     }
   }, []);
 
