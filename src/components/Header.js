@@ -38,6 +38,7 @@ export const Header = () => {
     document.documentElement.style.backgroundImage = `url(${themeImages[theme]})`;
     document.documentElement.style.backgroundSize = 'cover';
     document.documentElement.style.backgroundPosition = 'center';
+    document.documentElement.style.backgroundRepeat = 'no-repeat';
   }, [theme]);
 
   return (

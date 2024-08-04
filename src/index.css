@@ -37,3 +37,9 @@ html, body {
   border: 2px solid #000;
   transition: all 500ms;
 }
+
+html {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
